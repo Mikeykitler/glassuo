@@ -33,13 +33,13 @@ import { useTheme } from "next-themes"
 
 const data = {
   user: {
-    name: "Kortix User",
-    email: "docs@kortix.ai",
+    name: "Glassuo User",
+    email: "user@glassuo.local",
     avatar: "/favicon.png",
   },
   teams: [
     {
-      name: "Kortix AI",
+      name: "Glassuo",
       logo: GalleryVerticalEnd,
       plan: "Open Source",
     },

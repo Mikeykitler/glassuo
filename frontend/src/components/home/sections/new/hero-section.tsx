@@ -392,14 +392,7 @@ export function HeroSection() {
                     </div>
 
                     <div className="mt-8 text-center text-[13px] text-muted-foreground leading-relaxed">
-                        By continuing, you agree to our{' '}
-                        <a href="https://www.kortix.com/legal?tab=terms" target="_blank" rel="noopener noreferrer" className="text-foreground/70 hover:text-foreground underline underline-offset-2 transition-colors">
-                            Terms of Service
-                        </a>{' '}
-                        and{' '}
-                        <a href="https://www.kortix.com/legal?tab=privacy" target="_blank" rel="noopener noreferrer" className="text-foreground/70 hover:text-foreground underline underline-offset-2 transition-colors">
-                            Privacy Policy
-                        </a>
+                        By continuing, you agree to the Terms of Service and Privacy Policy of your Glassuo instance
                     </div>
                 </DialogContent>
             </Dialog>

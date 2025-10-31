@@ -9,8 +9,8 @@ logger = logging.getLogger(__name__)
 class EmailService:
     def __init__(self):
         self.api_token = os.getenv('MAILTRAP_API_TOKEN')
-        self.sender_email = os.getenv('MAILTRAP_SENDER_EMAIL', 'dom@kortix.ai')
-        self.sender_name = os.getenv('MAILTRAP_SENDER_NAME', 'Suna Team')
+        self.sender_email = os.getenv('MAILTRAP_SENDER_EMAIL', 'noreply@glassuo.local')
+        self.sender_name = os.getenv('MAILTRAP_SENDER_NAME', 'Glassuo Team')
         
         if not self.api_token:
             logger.warning("MAILTRAP_API_TOKEN not found in environment variables")
@@ -136,30 +136,19 @@ class EmailService:
 </head>
 <body>
   <div class="container">
-    <div class="logo-container">
-      <img src="https://i.postimg.cc/WdNtRx5Z/kortix-suna-logo.png" alt="Kortix Suna Logo" class="logo">
-    </div>
-    <h1>Welcome to Kortix Suna!</h1>
+    <h1>Welcome to Glassuo!</h1>
 
     <p>Hi {user_name},</p>
 
-    <p><em><strong>Welcome to Kortix Suna — we're excited to have you on board!</strong></em></p>
+    <p><em><strong>Welcome to Glassuo — we're excited to have you on board!</strong></em></p>
 
-    <p>To get started, we'd like to get to know you better: fill out this short <a href="https://docs.google.com/forms/d/e/1FAIpQLSef1EHuqmIh_iQz-kwhjnzSC3Ml-V_5wIySDpMoMU9W_j24JQ/viewform">form</a>!</p>
+    <p>Let us know if you need help getting started or have questions — check the documentation on GitHub.</p>
 
-    <p>To celebrate your arrival, here's a <strong>15% discount</strong> for your first month to get more usage:</p>
+    <p>Thanks again, and welcome to the Glassuo community</p>
 
-    <p>🎁 Use code <strong>WELCOME15</strong> at checkout.</p>
+    <p>— The Glassuo Team</p>
 
-    <p>Let us know if you need help getting started or have questions — we're always here, and join our <a href="https://discord.com/invite/FjD644cfcs">Discord community</a>.</p>
-
-    <p><strong>For your business:</strong> if you want to automate manual and ordinary tasks for your company, book a call with us <a href="https://cal.com/team/kortix/enterprise-demo">here</a></p>
-
-    <p>Thanks again, and welcome to the Suna community <span class="emoji">🌞</span></p>
-
-    <p>— The Suna Team</p>
-
-    <a href="https://www.suna.so/" class="button">Go to the platform</a>
+    <a href="https://github.com/Mikeykitler/glassuo" class="button">Visit Repository</a>
   </div>
 </body>
 </html>"""
@@ -167,26 +156,18 @@ class EmailService:
     def _get_welcome_email_text(self, user_name: str) -> str:
         return f"""Hi {user_name},
 
-Welcome to Suna — we're excited to have you on board!
+Welcome to Glassuo — we're excited to have you on board!
 
-To get started, we'd like to get to know you better: fill out this short form!
-https://docs.google.com/forms/d/e/1FAIpQLSef1EHuqmIh_iQz-kwhjnzSC3Ml-V_5wIySDpMoMU9W_j24JQ/viewform
+Let us know if you need help getting started or have questions — check the documentation on GitHub.
 
-To celebrate your arrival, here's a 15% discount for your first month to get more usage:
-🎁 Use code WELCOME15 at checkout.
+Thanks again, and welcome to the Glassuo community
 
-Let us know if you need help getting started or have questions — we're always here, and join our Discord community: https://discord.com/invite/FjD644cfcs
+— The Glassuo Team
 
-For your business: if you want to automate manual and ordinary tasks for your company, book a call with us here: https://cal.com/team/kortix/enterprise-demo 
-
-Thanks again, and welcome to the Suna community 🌞
-
-— The Suna Team
-
-Go to the platform: https://www.suna.so/
+Visit Repository: https://github.com/Mikeykitler/glassuo
 
 ---
-© 2025 Suna. All rights reserved.
+© 2025 Glassuo. All rights reserved.
 You received this email because you signed up for a Suna account."""
 
 email_service = EmailService() 

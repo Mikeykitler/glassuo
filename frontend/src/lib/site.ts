@@ -1,11 +1,9 @@
 export const siteConfig = {
-  name: 'Kortix',
-  url: 'https://suna.so/',
-  description: 'Kortix AI',
+  name: 'Glassuo',
+  url: 'https://github.com/Mikeykitler/glassuo',
+  description: 'Glassuo AI Agent Platform',
   links: {
-    twitter: 'https://x.com/kortixai',
-    github: 'https://github.com/kortix-ai/',
-    linkedin: 'https://www.linkedin.com/company/kortix/',
+    github: 'https://github.com/Mikeykitler/glassuo',
   },
 };
 
