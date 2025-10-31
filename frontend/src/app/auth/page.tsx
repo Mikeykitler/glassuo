@@ -332,26 +332,7 @@ function LoginContent() {
                       htmlFor="gdprConsent" 
                       className="text-sm text-muted-foreground leading-none cursor-pointer select-none"
                     >
-                      I accept the{' '}
-                      <a 
-                        href="https://www.kortix.com/legal?tab=privacy" 
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="hover:underline underline-offset-2 transition-colors"
-                        onClick={(e) => e.stopPropagation()}
-                      >
-                        Privacy Policy
-                      </a>
-                      {' '}and{' '}
-                      <a 
-                        href="https://www.kortix.com/legal?tab=terms"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="hover:underline underline-offset-2 transition-colors"
-                        onClick={(e) => e.stopPropagation()}
-                      >
-                        Terms of Service
-                      </a>
+                      I accept the Privacy Policy and Terms of Service of this Glassuo instance
                     </label>
                   </div>
                 </>

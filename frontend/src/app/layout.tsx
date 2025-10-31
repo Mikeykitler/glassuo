@@ -37,11 +37,11 @@ export const metadata: Metadata = {
     'research',
     'data analysis',
   ],
-  authors: [{ name: 'Kortix Team', url: 'https://suna.so' }],
+  authors: [{ name: 'Glassuo Team', url: 'https://github.com/Mikeykitler/glassuo' }],
   creator:
-    'Kortix Team',
+    'Glassuo Team',
   publisher:
-    'Kortix Team',
+    'Glassuo Team',
   category: 'Technology',
   applicationName: 'Kortix',
   formatDetection: {
