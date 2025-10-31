@@ -109,10 +109,10 @@ function LegalContent() {
                         <p>
                           Email:{' '}
                           <a
-                            href="mailto:info@kortix.com"
+                            href="mailto:contact@your-domain.com"
                             className="text-primary hover:underline"
                           >
-                            info@kortix.com
+                            contact@your-domain.com
                           </a>
                         </p>
                       </div>
@@ -394,7 +394,7 @@ function LegalContent() {
                         held by others. We respect rights holders internationally,
                         and we ask our users to do the same. If you believe your
                         copyright or trademark is being infringed by the Service,
-                        please write to info@kortix.com and we will process and
+                        please write to contact@your-domain.com and we will process and
                         investigate your request and take appropriate actions
                         under the Digital Millennium Copyright Act and other
                         applicable intellectual property laws with respect to any
@@ -410,7 +410,7 @@ function LegalContent() {
                         subscription, payable in U.S. dollars, that will
                         automatically renew. You can stop using the Service and
                         cancel your subscription at any time through the website
-                        or by emailing us at info@kortix.com. If you cancel
+                        or by emailing us at contact@your-domain.com. If you cancel
                         your subscription, you may not receive a refund or credit
                         for any amounts that have already been billed or paid. The
                         Company reserves the right to change its prices at any
@@ -688,10 +688,10 @@ function LegalContent() {
                         For questions regarding the Service, you can get in touch
                         by emailing us at{' '}
                         <a
-                          href="mailto:info@kortix.com"
+                          href="mailto:contact@your-domain.com"
                           className="text-primary hover:underline"
                         >
-                          info@kortix.com
+                          contact@your-domain.com
                         </a>
                         .
                       </p>
@@ -912,10 +912,10 @@ function LegalContent() {
                       <p className="text-muted-foreground text-balance">
                         You can get in touch by emailing us at{' '}
                         <a
-                          href="mailto:info@kortix.com"
+                          href="mailto:contact@your-domain.com"
                           className="text-primary hover:underline"
                         >
-                          info@kortix.com
+                          contact@your-domain.com
                         </a>
                         .
                       </p>
