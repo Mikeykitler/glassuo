@@ -18,14 +18,16 @@ export default function SupportPage() {
             </div>
             <h1 className="text-2xl font-semibold mb-2">Support</h1>
             <p className="text-muted-foreground mb-6">
-              For support inquiries, please contact us at:
+              For support inquiries, please check the GitHub repository.
             </p>
             <a 
-              href="mailto:support@kortix.com" 
+              href="https://github.com/Mikeykitler/glassuo" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-lg font-medium text-primary hover:underline inline-flex items-center gap-2"
             >
               <Mail className="w-5 h-5" />
-              support@kortix.com
+              Visit GitHub Repository
             </a>
           </div>
         </CardContent>

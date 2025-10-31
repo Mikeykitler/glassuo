@@ -1,28 +1,28 @@
-# Kortix App Store Copy
+# Glassuo App Store Copy
 
 Complete copy for Apple App Store submission.
 
 ---
 
 ## App Name
-**Kortix: Super AI Worker**
+**Glassuo: AI Agent Platform**
 
 ## Subtitle (30 characters max)
 **Your AI That Takes Action**
 
 Alternative options:
-- **Your Super AI Worker**
+- **Your AI Agent Platform**
 - **AI Worker That Never Sleeps**
-- **Your Ultra AI Colleague**
+- **Your AI Assistant**
 
 ---
 
 ## Promotional Text
-**Meet Kortix – Your Super AI Worker That Never Sleeps**
+**Meet Glassuo – Your AI Agent Platform**
 
-While other AI tools just chat, Kortix takes action. Research, analyze, create, automate – Kortix is your ultra-intelligent colleague that handles complex tasks while you focus on what matters.
+While other AI tools just chat, Glassuo takes action. Research, analyze, create, automate – Glassuo is your intelligent assistant that handles complex tasks while you focus on what matters.
 
-Plus, Kortix integrates with all your favorite apps (Gmail, Drive, Notion, Slack, and more) so it can perform actions directly in them. Your AI worker doesn't just create – it works in your actual apps.
+Plus, Glassuo integrates with apps (Gmail, Drive, Notion, Slack, and more) so it can perform actions directly in them. Your AI worker doesn't just create – it works in your actual apps.
 
 *New in v1.0: Multi-modal intelligence, voice interactions, app integrations, and powerful automation that delivers real results.*
 
@@ -82,20 +82,17 @@ People & Contact Finding
 
 App Integrations & Automation
 • Connect Kortix to all your favorite apps and tools
-• Kortix can perform actions directly in your connected apps
+• Glassuo can perform actions directly in your connected apps
 • Integrate with Gmail, Google Drive, Slack, Notion, Airtable, and more
 • Automate workflows across multiple platforms seamlessly
 • Sync data between applications automatically
 • Manage your productivity suite through natural language commands
 
-Terms of Use: https://www.kortix.com/legal?tab=terms
-Privacy Policy: https://www.kortix.com/legal?tab=privacy
-
 ---
 
 ## Keywords (100 characters max, comma-separated)
 
-ai worker,ai,assistant,productivity,automation,slides,spreadsheet,research,ai report,document,kortix
+ai agent,ai,assistant,productivity,automation,slides,spreadsheet,research,ai report,document,glassuo
 
 Alternative keyword combinations:
 - ai,super ai,ai worker,assistant,productivity,automation,slides,research,reports,documents
@@ -134,14 +131,12 @@ We're excited to bring you the first release of Kortix for iOS!
 
 **Get started today and experience the future of AI-powered productivity!**
 
-We'd love to hear your feedback. Rate us on the App Store or reach out at support@kortix.com
-
 ---
 
 ## App Preview/Screenshot Captions
 
 ### Screenshot 1: Home/Chat Interface
-**Your Super AI Worker**
+**Your AI Agent Platform**
 Create slides, reports, and documents instantly
 
 ### Screenshot 2: Creation Menu
@@ -167,34 +162,34 @@ Manage all your AI-created work in one place
 ---
 
 ## Support URL
-support@kortix.com
+[Repository URL]
 
 ## Marketing URL  
-https://www.kortix.com
+https://github.com/Mikeykitler/glassuo
 
 ## Privacy Policy URL
-https://www.kortix.com/legal?tab=privacy
+[Self-hosted instance privacy policy]
 
 ## Terms of Use URL
-https://www.kortix.com/legal?tab=terms
+[Self-hosted instance terms of use]
 
 ---
 
 ## Copyright
-© 2025 Kortix Inc.
+© 2025 Glassuo
 
 ---
 
 ## App Review Notes (for Apple Review Team)
 
 **Demo Account Credentials:**
-- Username: reviewer@kortix.com
+- Username: [Provide demo account]
 - Password: [Provide secure password]
 
 **Testing Instructions:**
 
 1. **Sign In** – Use the provided demo account or Sign in with Apple
-2. **Start a Conversation** – Tap "New Chat" and ask Suna to research any topic
+2. **Start a Conversation** – Tap "New Chat" and ask the AI to research any topic
 3. **Try Voice Input** – Use the microphone button for voice commands
 4. **Create Custom Agent** – Navigate to Settings > Agents > Create New Agent
 5. **Test Background Processing** – Start a long task, close the app, and return later
@@ -212,7 +207,7 @@ https://www.kortix.com/legal?tab=terms
 
 **API Services Used:**
 - Supabase (Authentication & Database)
-- Backend API at kortix.com
+- Self-hosted backend API
 - Various AI model providers (Anthropic, OpenAI)
 
 **Permissions Requested:**
@@ -403,15 +398,15 @@ Kortix can export to PowerPoint, Word, Excel, PDF, Google Slides, Google Docs, G
 ### Does Kortix work offline?
 You can view your created work offline, but creating new slides, documents, and reports requires an internet connection as Kortix uses advanced AI models in the cloud.
 
-### Can I use Kortix on multiple devices?
-Yes! All your created work – slides, documents, spreadsheets, and reports – syncs seamlessly across all devices through your Kortix account.
+### Can I use Glassuo on multiple devices?
+Yes! All your created work – slides, documents, spreadsheets, and reports – syncs seamlessly across all devices through your Glassuo account.
 
 ### How can I get help?
-Visit support@kortix.com. We typically respond within 24 hours.
+Visit the GitHub repository for documentation and support.
 
 ---
 
-**Last Updated:** October 30, 2025
+**Last Updated:** October 31, 2025
 **Version:** 1.0
 **Prepared for:** Apple App Store Submission
 

@@ -33,13 +33,13 @@ import { useTheme } from "next-themes"
 
 const data = {
   user: {
-    name: "Kortix User",
-    email: "docs@kortix.ai",
+    name: "Glassuo User",
+    email: "user@glassuo.local",
     avatar: "/favicon.png",
   },
   teams: [
     {
-      name: "Kortix AI",
+      name: "Glassuo",
       logo: GalleryVerticalEnd,
       plan: "Open Source",
     },
@@ -81,12 +81,7 @@ const data = {
       items: [
         {
           title: "GitHub Repository",
-          url: "https://github.com/kortix-ai/suna",
-          external: true,
-        },
-        {
-          title: "Discord Community",
-          url: "https://discord.gg/Py6pCBUUPw",
+          url: "https://github.com/Mikeykitler/glassuo",
           external: true,
         },
       ],

@@ -305,8 +305,8 @@ class Configuration:
     OPENROUTER_API_BASE: Optional[str] = "https://openrouter.ai/api/v1"
     OPENAI_COMPATIBLE_API_KEY: Optional[str] = None
     OPENAI_COMPATIBLE_API_BASE: Optional[str] = None
-    OR_SITE_URL: Optional[str] = "https://kortix.ai"
-    OR_APP_NAME: Optional[str] = "Kortix AI"
+    OR_SITE_URL: Optional[str] = "https://github.com/Mikeykitler/glassuo"
+    OR_APP_NAME: Optional[str] = "Glassuo"
     
     # Frontend URL configuration
     FRONTEND_URL_ENV: Optional[str] = None
@@ -359,8 +359,8 @@ class Configuration:
     STRIPE_PRODUCT_ID_STAGING: Optional[str] = 'prod_SCgIj3G7yPOAWY'
     
     # Sandbox configuration
-    SANDBOX_IMAGE_NAME = "kortix/suna:0.1.3.24"
-    SANDBOX_SNAPSHOT_NAME = "kortix/suna:0.1.3.24"
+    SANDBOX_IMAGE_NAME = "glassuo/agent:0.1.3.24"
+    SANDBOX_SNAPSHOT_NAME = "glassuo/agent:0.1.3.24"
     SANDBOX_ENTRYPOINT = "/usr/bin/supervisord -n -c /etc/supervisor/conf.d/supervisord.conf"
 
     # LangFuse configuration
@@ -477,22 +477,16 @@ class Configuration:
         Get the frontend URL based on environment.
         
         Returns:
-        - Production: 'https://kortix.com' (or FRONTEND_URL_ENV if set)
-        - Staging: 'https://staging.kortix.com' (or FRONTEND_URL_ENV if set)
+        - Production: FRONTEND_URL_ENV or 'http://localhost:3000'
+        - Staging: FRONTEND_URL_ENV or 'http://localhost:3000'
         - Local: FRONTEND_URL_ENV or 'http://localhost:3000'
         """
         # Check for environment variable override first
         if self.FRONTEND_URL_ENV:
             return self.FRONTEND_URL_ENV
         
-        # Environment-based defaults
-        if self.ENV_MODE == EnvMode.PRODUCTION:
-            return 'https://kortix.com'
-        elif self.ENV_MODE == EnvMode.STAGING:
-            return 'https://staging.kortix.com'
-        else:
-            # Local mode
-            return 'http://localhost:3000'
+        # Default to localhost for all environments
+        return 'http://localhost:3000'
     
     def _generate_admin_api_key(self) -> str:
         """Generate a secure admin API key for Kortix administrative functions."""

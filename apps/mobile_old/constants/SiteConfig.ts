@@ -1,7 +1,7 @@
 export const siteConfig = {
-  name: "Suna",
-  url: "https://suna.so",
-  description: "Suna is a fully open source AI assistant that helps you accomplish real-world tasks with ease. Through natural conversation, Suna becomes your digital companion for research, data analysis, and everyday challenges.",
+  name: "Glassuo",
+  url: "https://github.com/Mikeykitler/glassuo",
+  description: "Glassuo is a fully open source AI assistant that helps you accomplish real-world tasks with ease. Through natural conversation, Glassuo becomes your digital companion for research, data analysis, and everyday challenges.",
   keywords: [
     'AI',
     'artificial intelligence',
@@ -13,18 +13,17 @@ export const siteConfig = {
     'research',
     'data analysis',
   ],
-  authors: [{ name: 'Kortix Team', url: 'https://suna.so' }],
-  creator: 'Kortix Team - Adam Cohen Hillel, Marko Kraemer, Domenico Gagliardi, and Quoc Dat Le',
-  publisher: 'Kortix Team - Adam Cohen Hillel, Marko Kraemer, Domenico Gagliardi, and Quoc Dat Le',
+  authors: [{ name: 'Glassuo Team', url: 'https://github.com/Mikeykitler/glassuo' }],
+  creator: 'Glassuo Team',
+  publisher: 'Glassuo Team',
   category: 'Technology',
-  applicationName: 'Suna',
-  twitterHandle: '@kortixai',
-  githubUrl: 'https://github.com/kortix-ai/suna',
+  applicationName: 'Glassuo',
+  githubUrl: 'https://github.com/Mikeykitler/glassuo',
   
   // Mobile-specific configurations
   bundleId: {
-    ios: 'com.kortix.suna',
-    android: 'com.kortix.suna'
+    ios: 'com.glassuo.app',
+    android: 'com.glassuo.app'
   },
   
   // Theme colors
@@ -54,7 +53,7 @@ export const mobileMetadata = {
     address: false,
   },
   openGraph: {
-    title: 'Suna - Open Source Generalist AI Agent',
+    title: 'Glassuo - Open Source AI Agent Platform',
     description: siteConfig.description,
     url: siteConfig.url,
     siteName: siteConfig.name,
@@ -63,7 +62,7 @@ export const mobileMetadata = {
         url: '/banner.png',
         width: 1200,
         height: 630,
-        alt: 'Suna - Open Source Generalist AI Agent',
+        alt: 'Glassuo - Open Source AI Agent Platform',
         type: 'image/png',
       },
     ],
@@ -72,16 +71,14 @@ export const mobileMetadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Suna - Open Source Generalist AI Agent',
+    title: 'Glassuo - Open Source AI Agent Platform',
     description: siteConfig.description,
-    creator: siteConfig.twitterHandle,
-    site: siteConfig.twitterHandle,
     images: [
       {
         url: '/banner.png',
         width: 1200,
         height: 630,
-        alt: 'Suna - Open Source Generalist AI Agent',
+        alt: 'Glassuo - Open Source AI Agent Platform',
       },
     ],
   },
