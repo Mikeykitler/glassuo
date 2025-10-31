@@ -1,4 +1,4 @@
-# Kortix SDK
+# Glassuo SDK
 
 [![Python](https://img.shields.io/badge/python-3.11+-blue.svg)](https://python.org)
 
@@ -7,20 +7,20 @@
 > 
 > The API is subject to breaking changes, features may be incomplete, and documentation may be outdated. Use at your own risk.
 
-A Python SDK that enables you to create, manage, and interact with AI Workers on [Suna](https://suna.so).
+A Python SDK that enables you to create, manage, and interact with AI Workers on Glassuo.
 
 ## 📦 Installation
 
 Install directly from the GitHub repository:
 
 ```bash
-pip install "kortix @ git+https://github.com/kortix-ai/suna.git@main#subdirectory=sdk"
+pip install "glassuo @ git+https://github.com/Mikeykitler/glassuo.git@main#subdirectory=sdk"
 ```
 
 Or using uv:
 
 ```bash
-uv add "kortix @ git+https://github.com/kortix-ai/suna.git@main#subdirectory=sdk"
+uv add "glassuo @ git+https://github.com/Mikeykitler/glassuo.git@main#subdirectory=sdk"
 ```
 
 ## 🔧 Quick Start
@@ -32,7 +32,7 @@ from kortix import kortix
 async def main():
     mcp_tools = kortix.MCPTools(
         "http://localhost:4000/mcp/",  # Point to any HTTP MCP server
-        "Kortix",
+        "Glassuo",
     )
     await mcp_tools.initialize()
 
@@ -64,7 +64,7 @@ if __name__ == "__main__":
 
 ## 🔑 Environment Setup
 
-Get your API key from [https://suna.so/settings/api-keys](https://suna.so/settings/api-keys)
+Get your API key from your Glassuo instance settings page.
 
 ## 🧪 Running Examples
 

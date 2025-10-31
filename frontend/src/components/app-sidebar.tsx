@@ -81,12 +81,7 @@ const data = {
       items: [
         {
           title: "GitHub Repository",
-          url: "https://github.com/kortix-ai/suna",
-          external: true,
-        },
-        {
-          title: "Discord Community",
-          url: "https://discord.gg/Py6pCBUUPw",
+          url: "https://github.com/Mikeykitler/glassuo",
           external: true,
         },
       ],

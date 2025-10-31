@@ -229,7 +229,7 @@ export default function ContributingPage() {
               {
                 label: 'View Discussions',
                 variant: 'default',
-                onClick: () => window.open('https://github.com/kortix-ai/suna/issues', '_blank')
+                onClick: () => window.open('https://github.com/Mikeykitler/glassuo/issues', '_blank')
               }
             ]}
           />
